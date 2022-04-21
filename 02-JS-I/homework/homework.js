@@ -1,22 +1,22 @@
 // En estas primeras 6 preguntas, reemplaza `null` por la respuesta
 
 // Crea una variable "string", puede contener lo que quieras:
-const nuevaString = 'mostrar';
+const nuevaString = 'Hola';
 
 // Crea una variable numérica, puede ser cualquier número:
 const nuevoNum = 42;
 
 // Crea una variable booleana:
-const nuevoBool = true
+const nuevoBool = true;
 
 // Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - 5 === 5
+const nuevaResta = 10 - 5 === 5;
 
 // Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * 4 === 40 
+const nuevaMultiplicacion = 10 * 4 === 40;
 
 // Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === 1
+const nuevoModulo = 21 % 5 === 1;
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -64,8 +64,7 @@ function sonIguales(x, y) {
   if (x === y){
     ///resultado
     return true;
-  }
-  else {
+  } else {
     ///resultado
     return false;
   }
@@ -75,15 +74,9 @@ function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
   // De lo contrario, devuelve "false"
   // Tu código:
-   if (str1.length === str2.length){
-     return true;
-   }
-   else{
-     return false;
+  return str1.length === str2.length;
    }
   
-}
-
 function menosQueNoventa(num) {
   // Devuelve "true" si el argumento de la función "num" es menor que noventa
   // De lo contrario, devuelve "false"
@@ -100,12 +93,8 @@ function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
   // De lo contrario, devuelve "false"
   // Tu código:
-  if(num > 50){
-    return true;
-  }
-  else {// num === 50 | num < 50
-     return false;
-  }
+  return num > 50;
+
 }
 
 function obtenerResto(x, y) {
@@ -196,7 +185,7 @@ function agregarSimboloExclamacion(str) {
   // Agrega un símbolo de exclamación al final de la string "str" y devuelve una nueva string
   // Ejemplo: "hello world" pasaría a ser "hello world!"
   // Tu código:
-  return ( str + '!');
+  return str + '!';
 }
 
 function combinarNombres(nombre, apellido) {
@@ -224,7 +213,7 @@ function obtenerAreaRectangulo(alto, ancho) {
 function retornarPerimetro(lado){
   //Escibe una función a la cual reciba el valor del lado de un cuadrado y retorne su perímetro.
   //Escribe tu código aquí
-  return lado * 4;
+  return lado * 4
 
 }
 
