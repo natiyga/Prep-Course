@@ -6,7 +6,17 @@ function crearGato(nombre, edad) {
   // Agrega un método (funcion) llamado "meow" que devuelva el string "Meow!"
   // Devuelve el objeto
   // Tu código:
+  var nuevoObjeto = {
+    nombre : nombre,
+    edad : edad,
+    meow : function () {
+      return "!Meow¡";
+    }
+  } ;
+  return nuevoObjeto;
+  
 }
+
 
 
 function agregarPropiedad(objeto, property) {
@@ -20,7 +30,8 @@ function invocarMetodo(objeto, metodo) {
   // "metodo" es una cadena que contiene el nombre de un método (funcion) en el objeto
   // Invoca ese método
   // Nada necesita ser devuelto ("returned")
-  // Tu código:
+  // Tu código: 
+  
 }
 
 function multiplicarNumeroDesconocidoPorCinco(objetoMisterioso) {
